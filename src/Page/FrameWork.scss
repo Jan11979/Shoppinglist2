@@ -1,0 +1,52 @@
+@mixin themeBody($theme: White) {
+  justify-content: center;
+  margin: 1rem;
+  box-shadow: 0 4px 4px 0 #147be3;
+  border: 5px solid $theme;
+}
+
+.Header {
+  background-color: #282c34;
+//  min-height: 25vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 1rem;
+
+  border: 5px solid #ff0f0f;
+  box-shadow: 0 4px 4px 0 #1006f5;
+}
+
+.Body {
+  margin: 1rem;
+  background-color: #282c34;
+//  min-height: 50vh;
+//  min-width: 75vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: 5px solid #f50ecf;
+  box-shadow: 0 4px 4px 0 #147be3;
+}
+
+.LeftBody {
+  @include themeBody($theme: #147be3);
+}
+.MidBody {
+  @include themeBody($theme: #4cf50e);
+  /*  width: 600px; */
+  width: 100%;
+}
+
+.RightBody {
+  @include themeBody($theme: #239a7a);
+}
+.BottomBody {
+  @include themeBody($theme: #239a7a);
+}

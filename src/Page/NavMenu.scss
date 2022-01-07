@@ -1,0 +1,14 @@
+nav {
+  font-size: calc(10px + 2vmin);
+  .link {
+    color: #FFF;
+  }
+}
+
+nav:hover {
+  cursor: pointer;
+
+}
+.link:hover {
+  color: #00F;
+}

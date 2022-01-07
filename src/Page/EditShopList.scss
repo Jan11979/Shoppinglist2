@@ -1,0 +1,51 @@
+.InputBox{
+
+  font-size: calc(5px + 2vmin);
+  border: 1px solid #c2ccfc;
+}
+
+.ShopListElement{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+//  align-items: center;
+  margin: 0rem;
+  border: 1px solid #f50e0e;
+}
+.ShopListElementItemsLeft{
+  display: flex;
+//  flex-direction: row;
+//  justify-content: flex-start;
+  margin: 0rem;
+  border: 1px solid #0e57f5;
+  div{
+    display: flex;
+//    flex-direction: row;
+//    justify-content: space-around;
+    margin: 1rem;
+  }
+}
+.ShopListElementButtonsRight{
+  display: flex;
+  //flex-direction: row;
+  //justify-content: flex-end;
+  margin: 0rem;
+  border: 1px solid #0e57f5;
+  button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+}
+
+.NewItemCountInput
+{
+  width: 4rem;
+  maxlength:"4";
+}
+.NewItemInput
+{
+ // width: 4rem;
+  maxLength: 20;
+}

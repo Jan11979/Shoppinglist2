@@ -1,0 +1,12 @@
+.ShopListElement{
+  display: flex;
+  align-items: flex-start;
+}
+.ShopListElementAll{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  border: 1px solid #0e34f5;
+}
